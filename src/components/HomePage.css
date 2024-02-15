@@ -1,0 +1,28 @@
+.homepage{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+.loginLink{
+    text-decoration: none;
+    color: yellow;
+    text-decoration-line: underline;
+}
+.logout{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    max-width: fit-content;
+    font-size: 18px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border: 1px solid white;
+}

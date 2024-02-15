@@ -1,0 +1,17 @@
+.navbar{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+}
+.logo{
+    height: 50px;
+    margin-top:5px;
+    margin-left: 10px;
+}
+.logoText{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 24px;
+}
