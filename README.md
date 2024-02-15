@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Login with Node.js and React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview:
+🔒 This project implements user authentication using Node.js and React.js. Upon loading the page, users are prompted to login. They are presented with a login link, and upon successful authentication, the user's name is displayed along with a welcome message. The below images decipates the frontend UI.
 
-## Available Scripts
+![image](https://github.com/shiv-1203/LoginWithNode-Frontend/assets/105982373/8b6a58f6-e7d2-40bc-883c-da8088745aa6)
 
-In the project directory, you can run:
+![image](https://github.com/shiv-1203/LoginWithNode-Frontend/assets/105982373/eda19b24-34a2-4ea1-9253-9fde9dd20c52)
 
-### `npm start`
+## Features:
+- **User Authentication:** Users can login using their email and password.
+- **Dynamic Page Update:** The page dynamically updates upon successful login to display the user's name and a welcome message.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo Data:
+- { userId: 1, name: 'John Doe', email: 'john@example.com', password: 'password' }
+- { userId: 2, name: 'Jane Doe', email: 'jane@example.com', password: 'password123' }
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used:
+- **Backend Framework:** Node.js
+- **Frontend Framework:** React.js
 
-### `npm test`
+## Setup Instructions:
+1. Clone the Frontend repository:
+   ```bash
+   git clone https://github.com/shiv-1203/LoginWithNode-Frontend.git
+   ```
+2. Clone the Backend repository:
+   ```bash
+   git clone https://github.com/shiv-1203/LoginWithNode-Backend.git
+   ```
+3. Navigate to the backend folder: `cd LoginWithNode-Backend`
+4. Install backend dependencies: `npm install`
+5. Start the backend server: `node loginwithNode.js`
+6. Open another terminal window and navigate to the frontend folder: `cd LoginWithNode-Frontend`
+7. Install frontend dependencies: `npm install`
+8. Start the frontend server: `npm start`
+9. Access the webpage at `http://localhost:3000`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage:
+1. Upon accessing the webpage, users will see a prompt to login.
+2. Click on the login link and enter your email and password.
+3. Upon successful login, your name will be displayed with a welcome message.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to provide any suggestions or improvements to enhance this project. Your feedback is greatly appreciated! 😊
