@@ -17,6 +17,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' exact element={<HomePage user={user} setUser={setUser}/>}></Route>
+          <Route path='*' element={<HomePage user={user} setUser={setUser}/>}></Route>
           <Route path='/login' onLogin={handleLogin} element={<LoginPage onLogin={handleLogin}/>}></Route>
         </Routes>
       </BrowserRouter>
